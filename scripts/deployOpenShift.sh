@@ -56,6 +56,7 @@ sed -i -e "s/^#host_key_checking = False/host_key_checking = False/" /etc/ansibl
 echo "Line 56"
 sed -i -e "s/^#pty=False/pty=False/" /etc/ansible/ansible.cfg
 
+yum -y install deltarpm
 
 echo "print /etc/ansible/ansible.cfg"
 
