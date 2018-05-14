@@ -21,6 +21,7 @@ yum -y update --exclude=WALinuxAgent
 
 # Only install Ansible and pyOpenSSL on Master-0 Node
 # python-passlib needed for metrics
+yum install deltarpm
 
 if hostname -f|grep -- "-0" >/dev/null
 then
