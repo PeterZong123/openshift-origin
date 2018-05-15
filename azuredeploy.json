@@ -347,6 +347,7 @@
 			"sku": "7.4",
 			"version": "latest"
 		},
+		
 		"redHatTags": {
 			"app": "OpenShiftOrigin",
 			"version": "3.9",
